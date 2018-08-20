@@ -1,5 +1,6 @@
 #' @title windows2mac
 #' @param wd A windows working directory to be converted to mac
+#' @export
 windows2mac <- function(wd){
 
   str <- strsplit(wd, '/')[[1]]
@@ -13,6 +14,7 @@ windows2mac <- function(wd){
 
 #' @title mac2windows
 #' @param wd A mac working directory to be converted to windows
+#' @export
 mac2windows <- function(wd){
 
   str <- strsplit(wd, '/')[[1]]
@@ -28,7 +30,7 @@ mac2windows <- function(wd){
 #' @title jla_wd
 #' @description Changes working directy to its mac or windows equivalent
 #' @param wd A mac or windows working directory
-
+#' @export
 jla_wd <- function(wd){
 
 
