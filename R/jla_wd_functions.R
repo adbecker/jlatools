@@ -1,3 +1,5 @@
+#' @title windows2mac
+#' @param wd A windows working directory to be converted to mac
 windows2mac <- function(wd){
 
   str <- strsplit(wd, '/')[[1]]
@@ -9,7 +11,8 @@ windows2mac <- function(wd){
   return(new.wd)
 }
 
-
+#' @title mac2windows
+#' @param wd A mac working directory to be converted to windows
 mac2windows <- function(wd){
 
   str <- strsplit(wd, '/')[[1]]
