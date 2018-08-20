@@ -44,6 +44,6 @@ jla_wd <- function(wd){
 
   }
 
-  sewtd(new.wd)
+  setwd(new.wd)
 
 }
