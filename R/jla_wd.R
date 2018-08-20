@@ -9,6 +9,7 @@ windows2mac <- function(wd){
   return(new.wd)
 }
 
+
 mac2windows <- function(wd){
 
   str <- strsplit(wd, '/')[[1]]
@@ -21,6 +22,9 @@ mac2windows <- function(wd){
 
 }
 
+#' @title jla_wd
+#' @description Changes working directy to its mac or windows equivalent
+#' @param wd A mac or windows working directory
 
 jla_wd <- function(wd){
 
