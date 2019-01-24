@@ -4,7 +4,7 @@ Version: 0.0.1
 Authors@R: person("Alexander D.", "Becker", email = "adbecker@princeton.edu", role = c("aut", "cre"))
 Description: Tools for working between mac and windows work station
 Depends:
-    R (>= 3.1.0)
+    R (>= 3.5.0)
 License: GPL-3
 LazyData: true
 Encoding: UTF-8
